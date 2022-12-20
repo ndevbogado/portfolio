@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+/* --- BUTTON STYLES & ANIMATIONS --- */
+
+.button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+    border: solid 3px grey;
+    border-left: solid 10px grey;
+    color: grey;
+    background: none;
+    padding: 20px 30px;
+
+    font-family: 'Share Tech Mono', monospace;
+    text-transform: uppercase;
+    font-size:  20px;
+    
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.button::after {
+    position: absolute;
+    z-index: -1;
+    left: -100%;
+
+    content: "";
+    width: 100%;
+    height: 100%;
+
+    background: rgb(78, 78, 78);
+    opacity: 0.3;
+
+    transition: .3s ease-in-out all;
+}
+
+.button:hover::after{
+    left: 0px;
+}
