@@ -44,3 +44,39 @@ body {
 .button:hover::after{
     left: 0px;
 }
+
+.blue {
+    border-color: blue;
+    color: blue;    
+}
+
+.blue::after {
+    background: blue;
+}
+
+.red {
+    border-color: red;
+    color: red;
+}
+
+.red::after{
+    background: red;
+}
+
+.yellow{
+    border-color: yellow;
+    color: yellow;
+}
+
+.yellow::after {
+    background: yellow;
+}
+
+.green{
+    border-color: green;
+    color: green;
+}
+
+.green::after{
+    background: green;
+}
