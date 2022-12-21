@@ -5,6 +5,32 @@ body {
     text-align: center;
 }
 
+ul {
+	list-style-type: "> ";
+}
+
+li {
+    margin-bottom: 20px;
+    color: rgb(186, 186, 186);
+    text-align: left;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.indent_sm {
+    padding-left: 25px;
+}
+
+.border, .button {
+    border: solid 3px grey;
+    border-left: solid 10px grey;
+    color: grey;
+    background: none;
+    
+}
+
 /* --- BUTTON STYLES & ANIMATIONS --- */
 
 .button {
@@ -14,10 +40,6 @@ body {
     position: relative;
     overflow: hidden;
 
-    border: solid 3px grey;
-    border-left: solid 10px grey;
-    color: grey;
-    background: none;
     padding: 20px 30px;
 
     text-transform: uppercase;
@@ -50,7 +72,6 @@ body {
     border-color: blue;
     color: blue;    
 }
-
 .blue::after {
     background: blue;
 }
@@ -59,27 +80,32 @@ body {
     border-color: red;
     color: red;
 }
-
 .red::after{
     background: red;
 }
 
-.yellow{
-    border-color: yellow;
-    color: yellow;
+.gold{
+    border-color: rgb(255, 200, 0);
+    color: rgb(255, 200, 0);
+}
+.gold::after {
+    background: rgb(255, 200, 0);
 }
 
-.yellow::after {
-    background: yellow;
+.purple{
+    border-color:rgb(174, 0, 255);
+    color:rgb(174, 0, 255);
+}
+.purple::after{
+    background:rgb(174, 0, 255);
 }
 
 .green{
-    border-color: green;
-    color: green;
+    border-color: rgb(0, 255, 0);
+    color: rgb(0, 255, 0);
 }
-
 .green::after{
-    background: green;
+    background: rgb(0, 255, 0);
 }
 
 /* --- HEADER --- */
@@ -89,18 +115,19 @@ body {
     letter-spacing:-5px;
     word-spacing: -15px;
 
-    margin: 0 auto;
+    margin: -10px auto;
 }
 
-.header p {
+
+.header p, h3 {
     font-size: 15px;
-    
-    margin: 0 auto;
+        
+    margin: 0 auto 10px;
 }
 
 .header {
     display:inline-block;
     text-align: left;
     padding: 30px 100px 75px 30px;
-    margin: 50px auto;
+    margin-top: 50px ;
 }
