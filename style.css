@@ -134,7 +134,6 @@ nav {
 .header {
     display:inline-block;
     text-align: left;
-    padding: 100px 100px 75px 30px;
 }
 .header hr {
     border: none;
@@ -164,4 +163,21 @@ h3 {
 }
 .header h3:hover {
     color: rgb(255, 200, 0);
+}
+
+/* --- CONTACT --- */
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#contact div {
+    padding: 20px 50px;
+}
+
+/* --- SHARE PROPERTIES --- */
+.header, #contact {
+    padding: 100px 100px 75px 30px;
 }
