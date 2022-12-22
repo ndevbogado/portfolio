@@ -1,10 +1,16 @@
 body {
-    background-color: black;
-
+    background: linear-gradient(184deg, #000000, #130000, #0b000c, #000f00);
+    animation: dark_gradient 10s ease infinite;
     font-family: 'Share Tech Mono', monospace;
     color: rgb(186, 186, 186);
     text-align: center;
 }
+
+@keyframes dark_gradient {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+    }
 
 .font {
     font-family: 'Share Tech Mono', monospace;
