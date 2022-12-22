@@ -149,12 +149,15 @@ nav {
 }
 
 
-.header p, h3 {
+.header p,.header h3 {
     font-size: 15px;
         
     margin: 0 auto 10px;
 }
 
+h3 {
+    display: inline-block;
+}
 .header h3:hover {
     color: rgb(255, 200, 0);
 }
