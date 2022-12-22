@@ -170,13 +170,68 @@ h3 {
 #contact {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     gap: 50px;
 }
-
+/*
 #contact div {
     padding: 20px 50px;
 }
+*/
+#contact h2 {
+    padding-bottom: 40px;
+    margin: 0;
+}
 
+#contact ul {
+    list-style-type: none;
+}
+
+.form-field{
+    transition: .3s ease all;
+    text-decoration: underline 2px;
+    text-underline-offset: 15px;
+    padding: 30px 30px 30px 50px;
+    
+}
+
+.form-field:hover {
+    border: 1px solid red;
+    border-right: 10px solid red;
+    color: red;
+    text-transform: uppercase;
+    text-decoration: underline dashed 2px;
+    text-underline-offset: 15px;
+    padding: 20px 50px 50px 20px;
+    transition: .3s ease all;
+    
+}
+
+input:focus-visible, textarea:focus-visible, input:hover, textarea:hover {
+    outline: 2px solid red;
+    color: red;
+    border: none;
+    transition: .3s ease all;
+    border-right: solid 10px red;
+}
+
+input:focus-visible, input:hover {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+textarea:focus-visible, textarea:hover {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.form h2 {
+    display: block;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 /* --- SHARE PROPERTIES --- */
 .header, #contact {
     padding: 100px 100px 75px 30px;
