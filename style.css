@@ -6,6 +6,10 @@ body {
     text-align: center;
 }
 
+.font {
+    font-family: 'Share Tech Mono', monospace;
+}
+
 ul {
 	list-style-type: "> ";
 }
