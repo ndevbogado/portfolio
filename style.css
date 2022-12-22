@@ -2,6 +2,7 @@ body {
     background-color: black;
 
     font-family: 'Share Tech Mono', monospace;
+    color: rgb(186, 186, 186);
     text-align: center;
 }
 
@@ -11,10 +12,22 @@ ul {
 
 li {
     margin-bottom: 20px;
-    color: rgb(186, 186, 186);
     text-align: left;
 }
 
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 95%;
+    background: rgba(6, 11, 48, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    margin-right: 100px;
+}
 .uppercase{
     text-transform: uppercase;
 }
@@ -34,6 +47,8 @@ li {
 /* --- BUTTON STYLES & ANIMATIONS --- */
 
 .button {
+    flex-grow: 1;
+
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -43,6 +58,7 @@ li {
     padding: 20px 30px;
 
     text-transform: uppercase;
+    text-decoration: none;
     font-size:  20px;
     
     transition: .3s ease all;
@@ -66,14 +82,15 @@ li {
 
 .button:hover::after{
     left: 0px;
+    
 }
 
 .blue {
-    border-color: blue;
-    color: blue;    
+    border-color: rgb(0, 110, 255);
+    color: rgb(0, 110, 255);    
 }
 .blue::after {
-    background: blue;
+    background: rgb(0, 110, 255);
 }
 
 .red {
@@ -93,11 +110,11 @@ li {
 }
 
 .purple{
-    border-color:rgb(174, 0, 255);
-    color:rgb(174, 0, 255);
+    border-color:rgb(195, 65, 255);
+    color:rgb(195, 65, 255);
 }
 .purple::after{
-    background:rgb(174, 0, 255);
+    background:rgb(195, 65, 255);
 }
 
 .green{
@@ -110,6 +127,19 @@ li {
 
 /* --- HEADER --- */
 
+.header {
+    display:inline-block;
+    text-align: left;
+    padding: 100px 100px 75px 30px;
+}
+.header hr {
+    border: none;
+    border-top: dashed 2px;
+    
+    width: 60%;
+    margin-top: 0px;
+    margin-left: 0;
+}
 .header h1 {
     font-size: 75px;
     letter-spacing:-5px;
@@ -125,9 +155,6 @@ li {
     margin: 0 auto 10px;
 }
 
-.header {
-    display:inline-block;
-    text-align: left;
-    padding: 30px 100px 75px 30px;
-    margin-top: 50px ;
+.header h3:hover {
+    color: rgb(255, 200, 0);
 }
