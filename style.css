@@ -11,7 +11,7 @@ body {
     0%{background-position:91% 0%}
     50%{background-position:10% 100%}
     100%{background-position:91% 0%}
-    }
+}
 
 ::selection {
     color: #000000;
@@ -22,12 +22,15 @@ body {
     font-family: 'Share Tech Mono', monospace;
 }
 
+.flex-container, #contact {
+    display: flex;
+}
 .button, .button::after, .form-field, .border, .emphasis-border {
     transition: .5s ease all;
 }
 
 ul {
-	list-style-type: "> ";
+    list-style-type: "> ";
 }
 
 #profile li {
@@ -36,7 +39,6 @@ ul {
 }
 
 nav {
-    display: flex;
     justify-content: space-evenly;
     gap: 50px;
     overflow: hidden;
@@ -146,7 +148,6 @@ nav {
 /* --- CONTACT --- */
 
 #contact {
-    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     gap: 50px;
@@ -191,7 +192,6 @@ textarea:focus-visible, textarea:hover {
     display: block;
 }
 .form {
-    display: flex;
     flex-direction: column;
     gap: 20px;
 }
@@ -201,9 +201,6 @@ textarea:focus-visible, textarea:hover {
     gap: 15px;
 }
 
-.flex-container {
-    display: flex;
-}
 
 /* --- COLORS --- */
 
