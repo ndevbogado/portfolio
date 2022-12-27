@@ -198,7 +198,7 @@ textarea:focus-visible, textarea:hover {
 
 /* --- COLORS --- */
 
-.grey, .grey-hover:hover {
+.grey, .grey-hover:hover, .grey-focus:focus-visible {
     border-color: grey;
     color: grey;
 }
@@ -206,7 +206,7 @@ textarea:focus-visible, textarea:hover {
     background: grey;
 }
 
-.blue, .blue-hover:hover {
+.blue, .blue-hover:hover, .blue-focus:focus-visible {
     border-color: rgb(0, 110, 255);
     color: rgb(0, 110, 255);    
 }
@@ -214,7 +214,7 @@ textarea:focus-visible, textarea:hover {
     background: rgb(0, 110, 255);
 }
 
-.red, .red-hover:hover {
+.red, .red-hover:hover, .red-focus:focus-visible {
     border-color: red;
     color: red;
 }
@@ -222,7 +222,7 @@ textarea:focus-visible, textarea:hover {
     background: red;
 }
 
-.gold, .gold-hover:hover {
+.gold, .gold-hover:hover, .gold-focus:focus-visible {
     border-color: rgb(255, 200, 0);
     color: rgb(255, 200, 0);
 }
@@ -230,7 +230,7 @@ textarea:focus-visible, textarea:hover {
     background: rgb(255, 200, 0);
 }
 
-.purple, .purple-hover:hover {
+.purple, .purple-hover:hover, .purple-focus:focus-visible {
     border-color:rgb(195, 65, 255);
     color:rgb(195, 65, 255);
 }
@@ -238,7 +238,7 @@ textarea:focus-visible, textarea:hover {
     background:rgb(195, 65, 255);
 }
 
-.green, .green-hover:hover {
+.green, .green-hover:hover, .green-focus:focus-visible {
     border-color: rgb(0, 255, 0);
     color: rgb(0, 255, 0);
 }
