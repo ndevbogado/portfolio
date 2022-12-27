@@ -196,6 +196,15 @@ textarea:focus-visible, textarea:hover {
     gap: 20px;
 }
 
+.padding-between {
+    padding: 35px 0;
+    gap: 15px;
+}
+
+.flex-container {
+    display: flex;
+}
+
 /* --- COLORS --- */
 
 .grey, .grey-hover:hover, .grey-focus:focus-visible {
