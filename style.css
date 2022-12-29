@@ -201,6 +201,11 @@ textarea:focus-visible, textarea:hover {
     gap: 15px;
 }
 
+/* --- FOOTER --- */
+
+#footer {
+    padding-bottom: 30px;
+}
 
 /* --- COLORS --- */
 
